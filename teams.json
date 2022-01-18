@@ -1,0 +1,41 @@
+[{
+    "id": "0",
+    "name": "Chicago Bears",
+    "city": "Chicago"
+}, {
+    "id": "1",
+    "name": "New York Giants",
+    "city": "New York"
+}, {
+    "id": "2",
+    "name": "Cleveland Browns",
+    "city": "Cleveland"
+}, {
+    "id": "3",
+    "name": "Dallas Cowboys",
+    "city": "Dallas"
+}, {
+    "id": "4",
+    "name": "Seattle Seahawks",
+    "city": "Seattle"
+}, {
+    "id": "5",
+    "name": "Buffalo Bills",
+    "city": "Buffalo"
+}, {
+    "id": "6",
+    "name": "San Francisco 49ers",
+    "city": "Santa Clara"
+}, {
+    "id": "7",
+    "name": "Los Angeles Rams",
+    "city": "Los Angeles"
+}, {
+    "id": "8",
+    "name": "Pittsburgh Steelers",
+    "city": "Pittsburgh"
+}, {
+    "id": "9",
+    "name": "New York Jets",
+    "city": "New York"
+}]

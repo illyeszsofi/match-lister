@@ -1,0 +1,228 @@
+html {
+    font-size: 120%;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.mid {
+    height: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: auto;
+}
+
+h1 {
+    color: #2C817E;
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+    font-size: 2.1em;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: #2C817E;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    font-size: 1.65em;
+    letter-spacing: 1px;
+}
+
+#p-less {
+    margin-top: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #2C817E;
+}
+
+a:visited {
+    color: #2C817E;
+}
+
+a:hover {
+    background: #E0F2F0;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.1em 1em;
+    text-decoration: none;
+}
+
+.menuLoggedInAs {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.1em 1em;
+
+}
+
+.menu li a:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+.registerName {
+    font-weight: bold;
+    color: #2C817E;
+    font-size: 1.1em;
+    margin-top: 0.7em;
+    display: block;
+}
+
+.errorMessage {
+    color: rgb(233, 0, 0);
+}
+
+input[type="text"].errorUnderline {
+    border-bottom: 2.2px solid red;
+}
+
+input[type="password"].errorUnderline {
+    border-bottom: 2.2px solid red;
+}
+
+textarea.errorUnderline {
+    border-bottom: 2.2px solid red;
+}
+
+input {
+    font-size: 0.75em;
+}
+
+textarea {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 0.85em;
+    resize: none;
+    border: none;
+    background: #f1f1f1;
+    width: 50%;
+}
+
+textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+#deleteComment {
+    float: right;
+}
+
+.comments {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding: 10px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text],
+input[type=password],
+input[type="date"] {
+    width: 30%;
+    padding: 15px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type="date"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #dfdfdf;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.removeLast:last-of-type {
+    display: none;
+}
+
+.button {
+    background-color: #2C817E;
+    color: white;
+    padding: 16px 20px;
+    margin-top: 0.5em;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+::selection {
+    background: #E0F2F0;
+}
+
+
+@media screen and (max-height: 840px) {
+    .mid {
+        height: 90%;
+    }
+}
